@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E8280241A5BE5030081E461 /* parentCollaege.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E8280231A5BE5030081E461 /* parentCollaege.png */; };
 		2ED2E0691A5A6A20007B9557 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED2E0681A5A6A20007B9557 /* main.m */; };
 		2ED2E06C1A5A6A20007B9557 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED2E06B1A5A6A20007B9557 /* AppDelegate.m */; };
 		2ED2E06E1A5A6A20007B9557 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ED2E06D1A5A6A20007B9557 /* Images.xcassets */; };
 		2ED2E0711A5A6A20007B9557 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ED2E06F1A5A6A20007B9557 /* LaunchScreen.xib */; };
 		2ED2E07D1A5A6A20007B9557 /* MoveBtnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED2E07C1A5A6A20007B9557 /* MoveBtnTests.m */; };
+		2ED2E0881A5A6A8C007B9557 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED2E0871A5A6A8C007B9557 /* MainVC.m */; };
+		2ED2E08C1A5A6F42007B9557 /* MoveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED2E08A1A5A6F42007B9557 /* MoveCell.m */; };
+		2ED2E08D1A5A6F42007B9557 /* MoveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ED2E08B1A5A6F42007B9557 /* MoveCell.xib */; };
+		2ED2E0901A5A87EA007B9557 /* MoveCellModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED2E08F1A5A87EA007B9557 /* MoveCellModal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E8280231A5BE5030081E461 /* parentCollaege.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parentCollaege.png; sourceTree = "<group>"; };
 		2ED2E0631A5A6A20007B9557 /* MoveBtn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveBtn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED2E0671A5A6A20007B9557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2ED2E0681A5A6A20007B9557 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,6 +41,13 @@
 		2ED2E0761A5A6A20007B9557 /* MoveBtnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveBtnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED2E07B1A5A6A20007B9557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2ED2E07C1A5A6A20007B9557 /* MoveBtnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveBtnTests.m; sourceTree = "<group>"; };
+		2ED2E0861A5A6A8C007B9557 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		2ED2E0871A5A6A8C007B9557 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		2ED2E0891A5A6F42007B9557 /* MoveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveCell.h; sourceTree = "<group>"; };
+		2ED2E08A1A5A6F42007B9557 /* MoveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveCell.m; sourceTree = "<group>"; };
+		2ED2E08B1A5A6F42007B9557 /* MoveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoveCell.xib; sourceTree = "<group>"; };
+		2ED2E08E1A5A87EA007B9557 /* MoveCellModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveCellModal.h; sourceTree = "<group>"; };
+		2ED2E08F1A5A87EA007B9557 /* MoveCellModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveCellModal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +89,16 @@
 		2ED2E0651A5A6A20007B9557 /* MoveBtn */ = {
 			isa = PBXGroup;
 			children = (
+				2E8280231A5BE5030081E461 /* parentCollaege.png */,
 				2ED2E06A1A5A6A20007B9557 /* AppDelegate.h */,
 				2ED2E06B1A5A6A20007B9557 /* AppDelegate.m */,
+				2ED2E08E1A5A87EA007B9557 /* MoveCellModal.h */,
+				2ED2E08F1A5A87EA007B9557 /* MoveCellModal.m */,
+				2ED2E0861A5A6A8C007B9557 /* MainVC.h */,
+				2ED2E0871A5A6A8C007B9557 /* MainVC.m */,
+				2ED2E0891A5A6F42007B9557 /* MoveCell.h */,
+				2ED2E08A1A5A6F42007B9557 /* MoveCell.m */,
+				2ED2E08B1A5A6F42007B9557 /* MoveCell.xib */,
 				2ED2E06D1A5A6A20007B9557 /* Images.xcassets */,
 				2ED2E06F1A5A6A20007B9557 /* LaunchScreen.xib */,
 				2ED2E0661A5A6A20007B9557 /* Supporting Files */,
@@ -193,6 +214,8 @@
 			files = (
 				2ED2E0711A5A6A20007B9557 /* LaunchScreen.xib in Resources */,
 				2ED2E06E1A5A6A20007B9557 /* Images.xcassets in Resources */,
+				2ED2E08D1A5A6F42007B9557 /* MoveCell.xib in Resources */,
+				2E8280241A5BE5030081E461 /* parentCollaege.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +233,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ED2E08C1A5A6F42007B9557 /* MoveCell.m in Sources */,
+				2ED2E0881A5A6A8C007B9557 /* MainVC.m in Sources */,
+				2ED2E0901A5A87EA007B9557 /* MoveCellModal.m in Sources */,
 				2ED2E06C1A5A6A20007B9557 /* AppDelegate.m in Sources */,
 				2ED2E0691A5A6A20007B9557 /* main.m in Sources */,
 			);
@@ -394,6 +420,7 @@
 				2ED2E0821A5A6A20007B9557 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2ED2E0831A5A6A20007B9557 /* Build configuration list for PBXNativeTarget "MoveBtnTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +429,7 @@
 				2ED2E0851A5A6A20007B9557 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
