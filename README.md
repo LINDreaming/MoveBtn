@@ -1,2 +1,2 @@
 # MoveBtn
-first upload code by gitHub
+# 详细信息可以查看代码。
